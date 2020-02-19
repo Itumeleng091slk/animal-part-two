@@ -14,7 +14,7 @@ class Dog(Animal):
         return self.eats
 
 
-dog_1 = Dog(" "," ")
+dog_1 = Dog("Food ","Bark ")
 #dog_1.food()
 print(dog_1.eat())
 print(dog_1.sound())
