@@ -19,9 +19,9 @@ class Animal:
         
 dog = Animal(" food ", " Bark")
 cat =Animal(" ", "meow") 
-print(dog.eat())
+#print(dog.eat())
 #dog.food()
-print(dog.sound())
+#print(dog.sound())
 #print(cat.eat())
 #print(cat.sound())
 
