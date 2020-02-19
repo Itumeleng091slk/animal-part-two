@@ -1,6 +1,7 @@
 import unittest
 from animal import Animal
 from cat import Cat
+from dog import Dog
 
 class test_animal(unittest.TestCase):
     def setUp(self):
