@@ -8,13 +8,13 @@ class Dog(Animal):
         #print(self.name + " eats")  
 
     def sound(self):
-        return self.sounds,"Bark"
+        return self.sounds
 
     def eat(self):
-       return '{0} food'.format(self.eats)
+       return self.eats
 
 
 dog_1 = Dog(" "," ")
 #dog_1.food()
-dog_1.eat()
-dog_1.sound()
+print(dog_1.eat())
+print(dog_1.sound())
